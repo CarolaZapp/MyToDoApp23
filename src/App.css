@@ -1,0 +1,55 @@
+h2 {
+  color:var(--font-two);
+  margin-top: 3rem;
+  text-align: center;
+}
+
+h3,
+h5 {
+  color:var(--font-two);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 2px solid var(--bg-two);
+  background-color: var(--bg-two);
+  border-radius: 1rem;
+  color:var(--font-one);
+  border-radius: 50%;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+button:active{
+  transform: scale(0.97);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  color: var(--font-two);
+  font-size: 1rem;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 2px solid var(--bg-two);
+  background-color: var(--bg-three);
+  color: var(--font-one);
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  outline: none;
+  cursor: pointer;
+}

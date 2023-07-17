@@ -1,0 +1,12 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 55vw;
+  margin: auto;
+  color: var(--font-two);
+}
+
+.aboutLi {
+  padding: 0.5rem;
+}

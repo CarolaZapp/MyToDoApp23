@@ -1,0 +1,8 @@
+/* only classes ! other definitions pls see App.css! */
+.today {
+  text-align: center;
+  color: var(--font-two);
+  font-size: 1.25rem;
+  margin: 1rem;
+  outline: none;
+}

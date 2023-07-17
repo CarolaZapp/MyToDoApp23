@@ -1,0 +1,30 @@
+.nav {
+  background-color: var(--bg-two);
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navLink {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  background-color: var(--bg-one);
+  border: 2px solid var(--bg-one);
+  color: var(--font-two);
+  border-radius: 0.75rem;
+  box-shadow: 5px 5px 5px var(--shaddow-one);
+}
+
+.navLink:hover {
+  color: var(--shaddow-one);
+  background-color:var(--bg-two); 
+  border: 2px solid var(--bg-two);
+  box-shadow: 5px 5px 5px var(--shaddow-two);
+}
+
+.navLink:active {
+  transform: scale(0.97);
+}
